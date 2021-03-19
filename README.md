@@ -43,7 +43,7 @@
 
 A Google Chrome/Firefox extension that blocks NSFW images from the web pages that you load using TensorFlowJS.
 
-*This extension **does NOT** collect/send any user data. All the operations on the images are done locally on the browser. No user data is being sent to a server for processing.*
+_This extension **does NOT** collect/send any user data. All the operations on the images are done locally on the browser. No user data is being sent to a server for processing._
 
 <p align="center">
   <img alt='logo name' src='./demo/images/logo_name.png'>
@@ -55,8 +55,9 @@ A Google Chrome/Firefox extension that blocks NSFW images from the web pages tha
 
 When a web page is loaded, all the images remain hidden until they are found to be NSFW or not. If they are found to be NSFW, they remain hidden. Otherwise, they become visible.
 
-It is free and is currently supported on both Chrome and Firefox. We are working on porting this to Safari also.
+It is free and is currently supported on both Chrome and Firefox. We are working on porting this to Safari also. just testing
 </br>
+
 <p align="center">
   <a href="https://chrome.google.com/webstore/detail/nsfw-filter/kmgagnlkckiamnenbpigfaljmanlbbhh" target="_blank">
     <img src="./demo/images/chrome.gif" alt="Download now" width="160">
@@ -80,8 +81,8 @@ Reach out to us! Join the [**Slack channel**](https://join.slack.com/t/nsfwfilte
 
 - [Usage](#usage)
 - [Development](#development)
-    - [Adding to Chrome](#adding-to-chrome)
-    - [Adding to Firefox](#adding-to-firefox)
+  - [Adding to Chrome](#adding-to-chrome)
+  - [Adding to Firefox](#adding-to-firefox)
 - [Contribute](#contribute)
 
 # Usage
@@ -90,7 +91,7 @@ After adding the extension to Chrome/Firefox, it will light-up everytime you loa
 
 When a page is loaded, the extension would hide all the images in the page and only show images that have been classified as **NOT NSFW**.
 
-You can toggle(off/on) the extension from the ```chrome://extensions``` page in Chrome and ```about:debugging#/runtime/this-firefox``` in Firefox.
+You can toggle(off/on) the extension from the `chrome://extensions` page in Chrome and `about:debugging#/runtime/this-firefox` in Firefox.
 
 Open popup window to change NSFW Filter settings
 
@@ -104,7 +105,6 @@ Open popup window to change NSFW Filter settings
     </td>
   </tr>
 </table>
-
 
 # Development
 
@@ -136,11 +136,11 @@ To run development version in clean environment use command:
 npm run dev:chrome
 ```
 
-Or open Google Chrome and open the Extension Management page by navigating to ```chrome://extensions``` or by opening Settings and clicking Extensions from the bottom left.
+Or open Google Chrome and open the Extension Management page by navigating to `chrome://extensions` or by opening Settings and clicking Extensions from the bottom left.
 
 Enable Developer Mode by clicking the toggle switch next to Developer mode.
 
-Click the "Load Unpacked" button and select the extension directory(```.../dist```).
+Click the "Load Unpacked" button and select the extension directory(`.../dist`).
 
 <p align="center">
   <img src="./demo/images/install_instructions.png" alt="Install Instructions">
@@ -158,20 +158,22 @@ To run development version in clean environment use command:
 npm run dev:firefox
 ```
 
-Or open Firefox and open the Debug Add-ons page by navigating to ```about:debugging#/runtime/this-firefox``` or by selecting it from Settings dropdown in the add-ons page.
+Or open Firefox and open the Debug Add-ons page by navigating to `about:debugging#/runtime/this-firefox` or by selecting it from Settings dropdown in the add-ons page.
 
-Click Load Temporary Add-on and select the ```manifest.json``` file from the ```.../dist``` directory.
+Click Load Temporary Add-on and select the `manifest.json` file from the `.../dist` directory.
 
 <p align="center">
   <img src="./demo/images/install_instructions_firefox.png" width="470px" alt="Install Instructions">
 <p/>
 
 That's it! The extension is now ready to be used in Firefox!
+
 <!--
 ### Activity Diagram
 
 ![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/nsfw-filter/nsfw-filter/master/demo/UML/activity-diagram.plantuml)
 -->
+
 # Contribute
 
 Please check the [**Contributing Guidelines**](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/.github/markdown/CONTRIBUTING.md) before contributing.
