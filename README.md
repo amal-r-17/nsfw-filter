@@ -55,7 +55,7 @@ _This extension **does NOT** collect/send any user data. All the operations on t
 
 When a web page is loaded, all the images remain hidden until they are found to be NSFW or not. If they are found to be NSFW, they remain hidden. Otherwise, they become visible.
 
-It is free and is currently supported on both Chrome and Firefox. We are working on porting this to Safari also. just test
+It is free and is currently supported on both Chrome and Firefox. We are working on porting this to Safari also. just testing
 </br>
 
 <p align="center">
